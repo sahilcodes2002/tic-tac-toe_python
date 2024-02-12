@@ -174,7 +174,7 @@ def print_matrix(matrix):
                 print("|", end=" ")
         print()
         if i < 2:
-            print("-" * 9)  # Adjusted for colored characters
+            print("-" * 9)  
     print()
 
     
@@ -300,7 +300,6 @@ def put_o(matrix,box):
         return True
     else :
         return False
-
 
 
 
